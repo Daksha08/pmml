@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+<title>Theory</title>
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+* {
+  box-sizing: border-box;
+  }
+
+/* Style the body */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+/* Header/logo Title */
+.header {
+  padding: 80px;
+  text-align: center;
+  background: #008080;
+  color: white;
+}
+
+/* Increase the font size of the heading */
+.header h1 {
+  font-size: 40px;
+}
+
+/*navigation bar, add backgroud colour to navigation bar */
+.topnav {
+  background-color: #000000;
+  overflow: hidden;
+}
+
+/*Style links inside navigation bar */
+.topnav a {
+  float: left;
+  display: block;
+  color: #FFFFFF;
+  text-align: center;
+  padding: 14px 20px;
+  font-size: 17px;
+  text-decoration: none;
+}
+
+/* Right-aligned link */
+.topnav a.right {
+  float: right;
+}
+
+/* Left-aligned link */
+.topnav a.left {
+  float: left;
+}
+
+/* Change the colour of links on hover */
+.topnav a:hover {
+  background-color: #C0C0C0;
+  color: black;
+}
+
+/* Active class link */
+.topnav a.active {
+  background-color: #708090;
+  color: white;
+  float:right;
+}
+
+/* Column container */
+.row {  
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+  -ms-flex: 30%; /* IE10 */
+  flex: 30%;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+/* Main column */
+.main {   
+  -ms-flex: 70%; /* IE10 */
+  flex: 70%;
+  background-color: white;
+  padding: 20px;
+}
+
+/* To align the image */
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+}
+
+
+
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Hot and Cold Mounting of Specimens</h1>
+</div>
+
+<div class="topnav">
+  <a href="./index.html" class="left">Home</a>
+  <a href="./FAQs.html"class="right">FAQs</a>
+  <a href="./Precautions.html" class="right">Precautions</a>
+  <a href="./Observations.html" class="right">Observations</a>
+  <a href="./Procedure.html" class="right">Procedure</a>
+  <a href="./Theory.html" class="active">Theory</a>
+  <a href="./Aim.html" class="right">Aim</a>
+</div> 
+
+<div class="row">
+  <div class="side">
+  <img src="Theory1.jpg" width="200" height="200" class="center">
+  <br>
+  <img src="Theory2.jpg" width="200" height="200" class="center">
+  <br>
+  <img src="Theory3.jpg" width="200" height="200" class="center">
+  <br>
+  <img src="Theory4.jpg" width="200" height="200" class="center">
+  </div>
+  <div class="main">
+  <h3><b><u>Hot Mounting</b></u></h3>
+  <p>
+  Hot mounting takes place under pressure in a mounting press, where the specimen is placed in a cylinder together with the appropriate mounting resin. A temperature of up to 200 deg C and a pressure of up to 50kN are then applied   during the embedding of the specimen. There are two types of hot mounting processes: thermoplastic resins and thermo-setting resins.<br><br>
+  <ul type="square">
+  <li><b><u>Thermoplastic Resins </b></u>- Thermoplastic resins are materials that soften to a liquid in high heat, and then harden again when cooled. Because of these properties, thermoplastic materials can be molded into a   variety of shapes and structures, making the plastic resins applicable to many industries. They are most often used in the injection molding process. Thermoplastic resins form chemical bonds called polymers when utilized in the   plastics molding process.<br><br>
+  <i><u>Advantages of Thermoplastic Resins:</i></u>
+  <ul type="circle">
+  <li>Highly recyclable</li>
+  <li>High impact resistance</li>
+  <li>Reshaping abilities</li>
+  <li>Chemical resistance</li>
+  <li>Large number of finishing options</li>
+  <li>Dimensional stability</li>
+  <li>No toxic smells, fumes, or harmful discharges used in manufacturing</li></ul></li><br><br>
+  <li><b><u>Thermosetting Resins </b></u>- A thermosetting resin is a petrochemical material that irreversibly cures. It is used as adhesives as well as in semiconductors and integrated circuits. Thermo-setting Resins cure at       elevated temperatures under pressure. Thermo-setting resins cannot be re-melted after mounting. The most frequently used thermosetting resins are: polyester, epoxy, phenolic and vinyl ester.<br><br>
+  <i><u>Advantages of Thermosettting Resins:</i></u>
+  <ul type="circle">
+  <li>high thermal stability</li>
+  <li>good rigidity and hardness, and resistance to creep</li></ul></li>
+  </ul>
+  </p>
+  <p></p>
+  <h3><b><u>Cold Mounting</b></u></h3>
+  <p>
+  Cold mounting or embedding is when a resin is mixed with a hardener (or accelerator) to provide the mounting compound, and then the polymerization process take place to form the block. In some cases, this process gives-off   heat. However this heat generation can be controlled by the use of ice or cool air blow setting. Cold mounting compounds are preferred for specimens that are sensitive to the heat or pressure, which applies during the hot mounting   process. There are three types of cold mounting:<br><br>
+  <ul type="square">
+  <li><b><u>Epoxy Systems </b></u>- Epoxies have the lowest shrinkage of all cold mounting resins. The curing time is relatively long, but the adhesion to most materials is excellent. They are also used for vacuum impregnation.   The hardened epoxy is duroplastic and not affected by moderate heat or chemicals.</li>
+  <li><b><u>Acrylic System </b></u>- Acrylics are easy to use resins with short curing times and negligible shrinkage. They consist of self-polymerizing components that harden with the addition of catalyst. Hardened acrylic is   thermoplastic and resistant to most chemicals.</li>
+  <li><b><u>Polyester Systems </b></u>- Polyester belongs to the catalyzed system, like acrylics. Curing times are relatively short and the hardened specimen is duroplastic.</li></ul>
+  </p>
+ </div>
+</div>
+
+<div class="footer">
+  <h2>Department of Metallurgy and Material Science</h2>
+</div>
+
+</body>
+</html>

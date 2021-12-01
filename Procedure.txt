@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+<title>Procedure</title>
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+* {
+  box-sizing: border-box;
+  }
+
+/* Style the body */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+/* Header/logo Title */
+.header {
+  padding: 80px;
+  text-align: center;
+  background: #008080;
+  color: white;
+}
+
+/* Increase the font size of the heading */
+.header h1 {
+  font-size: 40px;
+}
+
+/*navigation bar, add backgroud colour to navigation bar */
+.topnav {
+  background-color: #000000;
+  overflow: hidden;
+}
+
+/*Style links inside navigation bar */
+.topnav a {
+  float: left;
+  display: block;
+  color: #FFFFFF;
+  text-align: center;
+  padding: 14px 20px;
+  font-size: 17px;
+  text-decoration: none;
+}
+
+/* Right-aligned link */
+.topnav a.right {
+  float: right;
+}
+
+/* Left-aligned link */
+.topnav a.left {
+  float: left;
+}
+
+/* Change the colour of links on hover */
+.topnav a:hover {
+  background-color: #C0C0C0;
+  color: black;
+}
+
+/* Active class link */
+.topnav a.active {
+  background-color: #708090;
+  color: white;
+  float:right;
+}
+
+/* Column container */
+.row {  
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+  -ms-flex: 30%; /* IE10 */
+  flex: 30%;
+  background-color: #f1f1f1;
+  padding: 10px;
+}
+
+/* Main column */
+.main {   
+  -ms-flex: 70%; /* IE10 */
+  flex: 70%;
+  background-color: white;
+  padding: 20px;
+}
+
+/* To align the image */
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+}
+
+
+
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Hot and Cold Mounting of Specimens</h1>
+</div>
+
+<div class="topnav">
+  <a href="./index.html" class="left">Home</a>
+  <a href="./FAQs.html"class="right">FAQs</a>
+  <a href="./Precautions.html" class="right">Precautions</a>
+  <a href="./Observations.html" class="right">Observations</a>
+  <a href="./Procedure.html" class="active">Procedure</a>
+  <a href="./Theory.html" class="right">Theory</a>
+  <a href="./Aim.html" class="right">Aim</a>
+</div>
+
+<div class="row">
+  <div class="side">
+  <img src="Procedure1.jpg" width="550" height="200" class="center">
+  <br>
+  <img src="Procedure2.jpg" width="550" height="200" class="center">
+  <br>
+  <img src="Procedure4.png" width="550" height="200" class="center">
+  <br>
+  <img src="Procedure3.jpg" width="550" height="200" class="center">
+  </div>
+  
+  <div class="main">
+  <h3><b><u>Procedure for Hot Mounting : </b></u></h3>
+  <p><ol style="1">
+        <li>	The specimen should be cleaned before mounting in order to improve adhesion to the mounting medium. Use acetone or alcohol to clean it. Then dry the specimen well.</li><br> 
+        <li>Switch on the hot press mount.</li><br>
+        <li>Apply anti-stick stearate powder to upper and lower rams of the cylinder to avoid sticking of resin.</li><br>
+        <li>Place the specimen on the lower ram with the surface to be viewed facing upwards.</li><br>
+        <li>Select the most suitable hot-mounting resin depending on your requirements.</li><br>
+        <li>Adjust the movable lower ram to the lowest position and fill the cylinder with ~1 scoop of resin.</li><br>
+        <li>Now place the closure with the upper ram onto the mounting cylinder and turn it to lock it in place.</li><br>
+        <li>Set the hot mounting parameters (temperature, pressure, cooling) to the appropriate settings depending on resin used.</li><br>
+        <li>Press start and wait; the machine will automatically relieve pressure when the cooling time has elapsed.</li><br>
+        <li>Turn the top closure to unlock it and raise the lower ram to the upper limit.</li><br>
+        <li>Remove the sample from the cylinder and switch off the hot press mount.</li></ol>
+  </p>
+  <br>
+  <h3><b><u>Procedure for Cold Mounting : </b></u></h3>
+  <p><ol style="1">
+        <li>Adjust the vacuum to maximum and pump down the chamber.</li><br>
+        <li>Place the tubing on the metal stand and tighten the knob.</li><br>
+        <li>Tighten stopper and knob to pump down to reach about 400m bar.</li><br>
+        <li>Allow the vacuum to hold for about 5 min.</li><br>
+        <li>Preparation of pouring epoxy over the specimen.</li><br>
+        <li>Prepare epoxy compound with 20ml of epoxy resin and 5ml of hardener, stir slowly for 6min reduce the formation of bubbles.</li><br>
+        <li>Place the tubing into epoxy compound and release the knob to allow flowing (try to not release any bubbles to the mould).</li><br>
+        <li>After the addition of sufficient epoxy, tighten the knob to stop the flow of epoxy.</li><br>
+        <li>Adjust the vacuum to minimum and wait for 30 minutes.</li><br>
+        <li>Obtain the mould.</li><br>
+        <li>Vent the chamber and remove the mould with the sample inside and leave it to harden for 8 hours before removing the cold mount for mould.</li></ol>
+  </p>
+  </div>
+</div>
+
+<div class="footer">
+  <h2>Department of Metallurgy and Material Science</h2>
+</div>
+
+</body>
+</html>
+
+
+
+

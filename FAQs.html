@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html>
+<title>FAQs</title>
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+* {
+  box-sizing: border-box;
+  }
+
+/* Style the body */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+/* Header Title */
+.header {
+  padding: 80px;
+  text-align: center;
+  background: #008080;
+  color: white;
+}
+
+/* Increase the font size of the heading */
+.header h1 {
+  font-size: 40px;
+}
+
+/*navigation bar, add backgroud colour to navigation bar */
+.topnav {
+  background-color: #000000;
+  overflow: hidden;
+}
+
+/*Style links inside navigation bar */
+.topnav a {
+  float: left;
+  display: block;
+  color: #FFFFFF;
+  text-align: center;
+  padding: 14px 20px;
+  font-size: 17px;
+  text-decoration: none;
+}
+
+/* Right-aligned link */
+.topnav a.right {
+  float: right;
+}
+
+/* Left-aligned link */
+.topnav a.left {
+  float: left;
+}
+
+/* Change the colour of links on hover */
+.topnav a:hover {
+  background-color: #C0C0C0;
+  color: black;
+}
+
+/* Active class link */
+.topnav a.active {
+  background-color: #708090;
+  color: white;
+  float:right;
+}
+
+/* Column container */
+.row {  
+  display: -ms-flexbox; 
+  display: flex;
+  -ms-flex-wrap: wrap; 
+  flex-wrap: wrap;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+  -ms-flex: 30%; /* IE10 */
+  flex: 30%;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+/* Main column */
+.main {   
+  -ms-flex: 70%; /* IE10 */
+  flex: 70%;
+  background-color: white;
+  padding: 20px;
+}
+
+/* To align the image */
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+}
+
+/* Creating collapsible bar for answer */
+.collapsible {
+  background-color: #777;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+/* Changing colou on hover of collapsible */
+.active, .collapsible:hover {
+  background-color: #555;
+}
+
+/* Answer/ collapsible content */
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+}
+
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Hot and Cold Mounting of Specimens</h1>
+</div>
+
+<div class="topnav">
+  <a href="./index.html" class="left">Home</a>
+  <a href="./FAQs.html"class="active">FAQs</a>
+  <a href="./Precautions.html" class="right">Precautions</a>
+  <a href="./Observations.html" class="right">Observations</a>
+  <a href="./Procedure.html" class="right">Procedure</a>
+  <a href="./Theory.html" class="right">Theory</a>
+  <a href="./Aim.html" class="right">Aim</a>
+</div>
+
+<div class="row">
+  <div class="side">
+  <img src="FAQ1.JPG" width="200" height="200" class="center">
+  <br>
+  <img src="FAQ2.png" width="200" height="200" class="center">
+  </div>
+  <div class="main">
+  <h3><b><u>Questions : </b></u></h3>
+  <p><ol style="1">
+  <p><li>What can be done to make the specimen easy to handle?<br><br>
+        	<b>a)</b> Surface grinding
+        	<b>b)</b> Cylindrical grinding
+	<b>c)</b> Rough grinding
+	<b>d)</b> Creep-feed grinding <br><br>
+  <button type="button" class="collapsible">View Answer</button>
+    <div class="content">
+    <p>Answer: c <br><br>
+    Explanation: Whenever possible, it is preferred that the size of the specimen must be such that it is easy to      handle. For this purpose, the soft and hard specimen may be rough-ground on a belt sander. The rough grinding     is continued until the surface is flat and free from irregularities.</p>
+    </div></li></p>
+  
+  <p><li>What is the effect of removing the mount while it is still hot?<br><br>
+	<b>a)</b> Instability
+	<b>b)</b> Low strength
+	<b>c)</b> Rough finish
+	<b>d)</b> Opaque appearance<br><br>
+  <button type="button" class="collapsible">View Answer</button>
+    <div class="content">
+    <p>Answer: d <br><br>
+     Explanation: After the heating coil is removed, the cooling fins are inserted which cool the mount below 75 degree C in about 7 minutes. Ejecting the mold while it is hot or allowing it to cool slowly causes the mount to turn          opaque.</p>
+    </div></li></p>
+
+  <p><li>Which thermoplastic resin is used for mounting a specimen in metallography?<br><br>
+	<b>a)</b> Lucite
+	<b>b) </b>Polycarbonate
+	<b>c) </b>Polystyrene
+	<b>d)</b> Acetal copolymer polyoxymethylene<br><br>
+  <button type="button" class="collapsible">View Answer</button>
+    <div class="content">
+    <p>Answer: a <br><br>
+    Explanation: Lucite is a completely transparent thermoplastic resin which is used for mounting. This transparency helps to observe the exact section that is being polished. Here, these resins do not undergo any curing at the             molding temperature.</p>
+    </div></li></p>
+  <p><li>Which thermosetting resin is used in the mounting of the specimen in metallography?<br><br>
+	<b>a)</b> Thiolyte
+	<b>b)</b> Bakelite
+	<b>c)</b> Silicone
+	<b>d)</b> Urea formaldehyde<br><br>
+  <button type="button" class="collapsible">View Answer</button>
+    <div class="content">
+    <p>Answer: b <br><br>
+    <p>Explanation: The most common thermosetting resin used for mounting is bakelite. It is available in a variety of colors and helps easily identify the specimen.</p>
+    </div></li></p>
+  <p><li>Which of the following is not used for fine polishing of the mount?<br><br>
+	<b>a)</b> Aluminum oxide
+	<b>b)</b> Diamond paste
+	<b>c)</b> Bauxite tailing
+	<b>d)</b> Cerium oxide<br><br>
+  <button type="button" class="collapsible">View Answer</button>
+    <div class="content">
+    <p>Answer: c <br><br>
+    Explanation: The gamma form of aluminum oxide is widely preferred for fine polishing of ferrous and copper-based materials. Cerium oxide is also used for fine polishing of aluminum, magnesium, and their alloys. Other abrasives        used are a diamond paste, chromium oxide, and magnesium oxide.
+    </div></li></p>
+  <p></li>
+  </ol></p>
+  
+  <script>
+  var coll = document.getElementsByClassName("collapsible");
+  var i;
+
+  for (i = 0; i < coll.length; i++) 
+  {
+    coll[i].addEventListener("click", function() 
+    {
+      this.classList.toggle("active");
+      var content = this.nextElementSibling;
+      if (content.style.display === "block") 
+      {
+        content.style.display = "none";
+      } 
+      else 
+      {
+      content.style.display = "block";
+      }
+     });
+  }
+  </script>
+  </div>
+</div>
+
+<div class="footer">
+  <h2>Department of Metallurgy and Material Science</h2>
+</div>
+
+</body>
+</html>
+
+
+  

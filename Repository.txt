@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<title>Repository</title>
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+* {
+  box-sizing: border-box;
+  }
+
+/* Style the body */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+/* Header Title */
+.header {
+  padding: 80px;
+  text-align: center;
+  background: #008080;
+  color: white;
+}
+
+/* Increase the font size of the heading */
+.header h1 {
+  font-size: 40px;
+}
+
+/*navigation bar, add backgroud colour to navigation bar */
+.topnav {
+  background-color: #000000;
+  overflow: hidden;
+}
+
+/*Style links inside navigation bar */
+.topnav a {
+  float: left;
+  display: block;
+  color: #FFFFFF;
+  text-align: center;
+  padding: 14px 20px;
+  font-size: 17px;
+  text-decoration: none;
+}
+
+/* Right-aligned link */
+.topnav a.right {
+  float: right;
+}
+
+/* Left-aligned link */
+.topnav a.left {
+  float: left;
+}
+
+/* Change the colour of links on hover */
+.topnav a:hover {
+  background-color: #C0C0C0;
+  color: black;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: 20px;
+ 
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+}
+
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Hot and Cold Mounting of Specimens</h1>
+</div>
+
+<div class="topnav">
+  <a href="./index.html" class="left">Home</a>
+  <a href="./FAQs.html"class="right">FAQs</a>
+  <a href="./Precautions.html" class="right">Precautions</a>
+  <a href="./Observations.html" class="right">Observations</a>
+  <a href="./Procedure.html" class="right">Procedure</a>
+  <a href="./Theory.html" class="right">Theory</a>
+  <a href="./Aim.html" class="right">Aim</a>
+</div>
+
+<div class="row">
+  <div class="column" style="background-color:#aaa;">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/XCPzeBp3S3g"   title="YouTube video   player" frameborder="0" allow="accelerometer;   autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-  picture" allowfullscreen></iframe>
+<br><br>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/sYita4vTiN8" title="YouTube video player"   frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"   allowfullscreen></iframe>
+  </div>
+  <div class="column" style="background-color:#bbb;">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/B8Uq_my5c90" title="YouTube video   player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-  picture" allowfullscreen></iframe>
+  <br><br>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/m5TbAZetaFw" title="YouTube video player"   frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"   allowfullscreen></iframe>
+  </div>
+</div>
+<div class="footer">
+  <h2>Department of Metallurgy and Material Science</h2>
+</div>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
